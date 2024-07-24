@@ -1,0 +1,452 @@
+Note that 'racs-eb' is DEPRECATED. You can continue to use it but are
+encouraged to migrate off when you can. There will be no further updates in
+this module tree. 
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.36.jar
+    Processing eb-14-1_pulex_rnaseq_CTATGCGT_L003
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog eb-14-1_pulex_rnaseq_CTATGCGT_L003.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-14-1_pulex_rnaseq_CTATGCGT_L003_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-14-1_pulex_rnaseq_CTATGCGT_L003_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-14-1_pulex_rnaseq_CTATGCGT_L003_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 76263240 Both Surviving: 73053503 (95.79%) Forward Only Surviving: 3045103 (3.99%) Reverse Only Surviving: 150686 (0.20%) Dropped: 13948 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing eb-14-2_pulex_rnaseq_TTAATCAG_L003
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog eb-14-2_pulex_rnaseq_TTAATCAG_L003.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-14-2_pulex_rnaseq_TTAATCAG_L003_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-14-2_pulex_rnaseq_TTAATCAG_L003_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-14-2_pulex_rnaseq_TTAATCAG_L003_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 63113983 Both Surviving: 60358141 (95.63%) Forward Only Surviving: 2572932 (4.08%) Reverse Only Surviving: 168472 (0.27%) Dropped: 14438 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing eb-48-8_pulex_rnaseq_ACTAAGAC_L003
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog eb-48-8_pulex_rnaseq_ACTAAGAC_L003.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 62278675 Both Surviving: 52015231 (83.52%) Forward Only Surviving: 7462551 (11.98%) Reverse Only Surviving: 2608845 (4.19%) Dropped: 192048 (0.31%)
+TrimmomaticPE: Completed successfully
+Processing eb-54-5_pulex_rnaseq_CGCTATGT_L003
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog eb-54-5_pulex_rnaseq_CGCTATGT_L003.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-54-5_pulex_rnaseq_CGCTATGT_L003_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-54-5_pulex_rnaseq_CGCTATGT_L003_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/eb-54-5_pulex_rnaseq_CGCTATGT_L003_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 62662075 Both Surviving: 60155059 (96.00%) Forward Only Surviving: 2391875 (3.82%) Reverse Only Surviving: 105461 (0.17%) Dropped: 9680 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-1_pulex_rnaseq_CAATAGTC_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-1_pulex_rnaseq_CAATAGTC_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 27590622 Both Surviving: 25853373 (93.70%) Forward Only Surviving: 1680449 (6.09%) Reverse Only Surviving: 51412 (0.19%) Dropped: 5388 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-3_pulex_rnaseq_TCTGGCGA_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-3_pulex_rnaseq_TCTGGCGA_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 48592173 Both Surviving: 44765201 (92.12%) Forward Only Surviving: 3665999 (7.54%) Reverse Only Surviving: 146923 (0.30%) Dropped: 14050 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-4_pulex_rnaseq_TAATGAAC_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-4_pulex_rnaseq_TAATGAAC_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 28835238 Both Surviving: 26411054 (91.59%) Forward Only Surviving: 2372593 (8.23%) Reverse Only Surviving: 45203 (0.16%) Dropped: 6388 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 52595251 Both Surviving: 25435103 (48.36%) Forward Only Surviving: 27043782 (51.42%) Reverse Only Surviving: 102207 (0.19%) Dropped: 14159 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 38899124 Both Surviving: 21075047 (54.18%) Forward Only Surviving: 17787858 (45.73%) Reverse Only Surviving: 27228 (0.07%) Dropped: 8991 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 39424068 Both Surviving: 21254211 (53.91%) Forward Only Surviving: 18125066 (45.97%) Reverse Only Surviving: 35758 (0.09%) Dropped: 9033 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 50295310 Both Surviving: 27199578 (54.08%) Forward Only Surviving: 22991445 (45.71%) Reverse Only Surviving: 92624 (0.18%) Dropped: 11663 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 33558235 Both Surviving: 15535287 (46.29%) Forward Only Surviving: 17630388 (52.54%) Reverse Only Surviving: 381076 (1.14%) Dropped: 11484 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 41036870 Both Surviving: 19139960 (46.64%) Forward Only Surviving: 20522697 (50.01%) Reverse Only Surviving: 1356535 (3.31%) Dropped: 17678 (0.04%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 48088587 Both Surviving: 24098275 (50.11%) Forward Only Surviving: 23828821 (49.55%) Reverse Only Surviving: 148752 (0.31%) Dropped: 12739 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 38117078 Both Surviving: 18335662 (48.10%) Forward Only Surviving: 19527477 (51.23%) Reverse Only Surviving: 243007 (0.64%) Dropped: 10932 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-36-12_pulex_rnaseq_ATTGTCTG_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-36-12_pulex_rnaseq_ATTGTCTG_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 31093511 Both Surviving: 26431847 (85.01%) Forward Only Surviving: 4606672 (14.82%) Reverse Only Surviving: 45323 (0.15%) Dropped: 9669 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-36-4_pulex_rnaseq_GAAGAAGT_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-36-4_pulex_rnaseq_GAAGAAGT_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 28933534 Both Surviving: 26332787 (91.01%) Forward Only Surviving: 2552642 (8.82%) Reverse Only Surviving: 42063 (0.15%) Dropped: 6042 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-36-9_pulex_rnaseq_ATTATGTT_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-36-9_pulex_rnaseq_ATTATGTT_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 32673975 Both Surviving: 30094836 (92.11%) Forward Only Surviving: 2523673 (7.72%) Reverse Only Surviving: 48792 (0.15%) Dropped: 6674 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 54206383 Both Surviving: 33619888 (62.02%) Forward Only Surviving: 20518253 (37.85%) Reverse Only Surviving: 57380 (0.11%) Dropped: 10862 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 66482591 Both Surviving: 36010661 (54.17%) Forward Only Surviving: 29952558 (45.05%) Reverse Only Surviving: 502137 (0.76%) Dropped: 17235 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-56-20_pulex_rnaseq_TCCTTGGT_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-56-20_pulex_rnaseq_TCCTTGGT_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 29617375 Both Surviving: 26947303 (90.98%) Forward Only Surviving: 2620030 (8.85%) Reverse Only Surviving: 43711 (0.15%) Dropped: 6331 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing kap4-56-4_pulex_rnaseq_GACAGTAA_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-56-4_pulex_rnaseq_GACAGTAA_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 30550050 Both Surviving: 26873318 (87.96%) Forward Only Surviving: 3617114 (11.84%) Reverse Only Surviving: 51043 (0.17%) Dropped: 8575 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing kap4-56-9_pulex_rnaseq_CATGATCG_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog kap4-56-9_pulex_rnaseq_CATGATCG_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-9_pulex_rnaseq_CATGATCG_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-9_pulex_rnaseq_CATGATCG_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/kap4-56-9_pulex_rnaseq_CATGATCG_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 45568029 Both Surviving: 42644784 (93.58%) Forward Only Surviving: 2799801 (6.14%) Reverse Only Surviving: 114132 (0.25%) Dropped: 9312 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing stm2-14-4-pulex_rnaseq_TTACGCAC_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog stm2-14-4-pulex_rnaseq_TTACGCAC_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-14-4-pulex_rnaseq_TTACGCAC_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 30225587 Both Surviving: 27877882 (92.23%) Forward Only Surviving: 2286488 (7.56%) Reverse Only Surviving: 54953 (0.18%) Dropped: 6264 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing stm2-50-6_pulex_rnaseq_CAGGAGCC_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog stm2-50-6_pulex_rnaseq_CAGGAGCC_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 31621629 Both Surviving: 29151037 (92.19%) Forward Only Surviving: 2421559 (7.66%) Reverse Only Surviving: 43426 (0.14%) Dropped: 5607 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 63120439 Both Surviving: 27168937 (43.04%) Forward Only Surviving: 35624743 (56.44%) Reverse Only Surviving: 310861 (0.49%) Dropped: 15898 (0.03%)
+TrimmomaticPE: Completed successfully
+Processing stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 59800783 Both Surviving: 26646227 (44.56%) Forward Only Surviving: 32989540 (55.17%) Reverse Only Surviving: 151017 (0.25%) Dropped: 13999 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing tex-14-2_pulex_rnaseq_CCAGAGCT_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog tex-14-2_pulex_rnaseq_CCAGAGCT_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 31255909 Both Surviving: 28247422 (90.37%) Forward Only Surviving: 2958304 (9.46%) Reverse Only Surviving: 43688 (0.14%) Dropped: 6495 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing tex-14-3-pulex_rnaseq_GTCTGATG_L004
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog tex-14-3-pulex_rnaseq_GTCTGATG_L004.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-14-3-pulex_rnaseq_GTCTGATG_L004_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-3-pulex_rnaseq_GTCTGATG_L004_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-14-3-pulex_rnaseq_GTCTGATG_L004_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-14-3-pulex_rnaseq_GTCTGATG_L004_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-3-pulex_rnaseq_GTCTGATG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-3-pulex_rnaseq_GTCTGATG_L004_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-3-pulex_rnaseq_GTCTGATG_L004_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-14-3-pulex_rnaseq_GTCTGATG_L004_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 31072297 Both Surviving: 27991323 (90.08%) Forward Only Surviving: 3028727 (9.75%) Reverse Only Surviving: 45394 (0.15%) Dropped: 6853 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing tex-57-13_pulex_rnaseq2024_TAATGAAC_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog tex-57-13_pulex_rnaseq2024_TAATGAAC_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 66324418 Both Surviving: 32350754 (48.78%) Forward Only Surviving: 33924283 (51.15%) Reverse Only Surviving: 35206 (0.05%) Dropped: 14175 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing tex-57-15_pulex_rnaseq2024_ATTATGTT_L001
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog tex-57-15_pulex_rnaseq2024_ATTATGTT_L001.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 59933261 Both Surviving: 29018866 (48.42%) Forward Only Surviving: 30843222 (51.46%) Reverse Only Surviving: 57862 (0.10%) Dropped: 13311 (0.02%)
+TrimmomaticPE: Completed successfully
+Processing tex-57-27_pulex_rnaseq_GAAGGAAG_L003
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog tex-57-27_pulex_rnaseq_GAAGGAAG_L003.trimlog -basein /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_R1_001.fastq.gz -baseout /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed.fastq ILLUMINACLIP:/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:5:20
+Using templated Input files: /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_R1_001.fastq.gz /home/ssnyder3/nereus/aging_rnaseq/all_raw_fastqs/pulex_fastqs/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_R2_001.fastq.gz
+Using templated Output files: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_1U.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_2P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmomatic_out_final2/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_2U.fastq
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 67497919 Both Surviving: 64727936 (95.90%) Forward Only Surviving: 2623351 (3.89%) Reverse Only Surviving: 134752 (0.20%) Dropped: 11880 (0.02%)
+TrimmomaticPE: Completed successfully
