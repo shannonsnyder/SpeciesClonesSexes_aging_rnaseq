@@ -1,0 +1,620 @@
+Note that 'racs-eb' is DEPRECATED. You can continue to use it but are
+encouraged to migrate off when you can. There will be no further updates in
+this module tree. 
+Index file D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx already exists. Skipping indexing.
+/home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx
+Processing sample: law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 22,515,583 reads, 11,932,864 reads pseudoaligned
+[quant] estimated average fragment length: 204.589
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,199 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed_2P.fastq"
+	User time (seconds): 555.42
+	System time (seconds): 12.39
+	Percent of CPU this job got: 731%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:17.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 320291
+	Voluntary context switches: 2283
+	Involuntary context switches: 771
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: law3-14-1_pulic_rnaseq_CAGCAAGG_L004_trimmed
+Processing sample: law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 23,367,844 reads, 13,769,123 reads pseudoaligned
+[quant] estimated average fragment length: 197.634
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,200 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed_2P.fastq"
+	User time (seconds): 574.56
+	System time (seconds): 12.72
+	Percent of CPU this job got: 731%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:20.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 335409
+	Voluntary context switches: 1616
+	Involuntary context switches: 776
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: law3-14-3_pulic_rnaseq_CGTTACCA_L004_trimmed
+Processing sample: law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 27,577,371 reads, 9,895,336 reads pseudoaligned
+[quant] estimated average fragment length: 206.718
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,126 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed_2P.fastq"
+	User time (seconds): 660.82
+	System time (seconds): 13.87
+	Percent of CPU this job got: 743%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:30.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 980036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 316125
+	Voluntary context switches: 2328
+	Involuntary context switches: 910
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: law3-75-1_pulic_rnaseq_TCCAGCAA_L004_trimmed
+Processing sample: lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,384,915 reads, 11,242,944 reads pseudoaligned
+[quant] estimated average fragment length: 202.959
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,122 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed_2P.fastq"
+	User time (seconds): 614.43
+	System time (seconds): 12.93
+	Percent of CPU this job got: 748%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 336280
+	Voluntary context switches: 1380
+	Involuntary context switches: 890
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: lwash-14-1_pulic_rnaseq_TCTCGGTC_L004_trimmed
+Processing sample: lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 27,677,915 reads, 11,201,757 reads pseudoaligned
+[quant] estimated average fragment length: 202.8
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,111 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed_2P.fastq"
+	User time (seconds): 652.81
+	System time (seconds): 14.02
+	Percent of CPU this job got: 749%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:29.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979284
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 339222
+	Voluntary context switches: 2154
+	Involuntary context switches: 859
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: lwash-14_2_pulic_rnaseq_TACTTAGC_L004_trimmed
+Processing sample: lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 32,838,058 reads, 19,451,883 reads pseudoaligned
+[quant] estimated average fragment length: 203.47
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,085 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed_2P.fastq"
+	User time (seconds): 805.27
+	System time (seconds): 14.52
+	Percent of CPU this job got: 748%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:49.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 981000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 357716
+	Voluntary context switches: 1138
+	Involuntary context switches: 1021
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: lwash-14-3_pulic_rnaseq_AAGACACT_L004_trimmed
+Processing sample: lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 57,806,222 reads, 33,594,628 reads pseudoaligned
+[quant] estimated average fragment length: 177.002
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,077 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed_2P.fastq"
+	User time (seconds): 1382.95
+	System time (seconds): 18.75
+	Percent of CPU this job got: 761%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:04.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 980796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 390632
+	Voluntary context switches: 1731
+	Involuntary context switches: 1676
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: lwash-79-10_pulic_rnaseq_TCGCTAGA_L003_trimmed
+Processing sample: lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 74,217,392 reads, 43,686,535 reads pseudoaligned
+[quant] estimated average fragment length: 207.84
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,062 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed_2P.fastq"
+	User time (seconds): 1806.08
+	System time (seconds): 21.39
+	Percent of CPU this job got: 766%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:58.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 981356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 395033
+	Voluntary context switches: 23660
+	Involuntary context switches: 2076
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: lwash-79-7_pulic_rnaseq_TTGTCTAT_L003_trimmed
+Processing sample: lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 47,738,023 reads, 26,481,309 reads pseudoaligned
+[quant] estimated average fragment length: 168.736
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,134 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed_2P.fastq"
+	User time (seconds): 1230.73
+	System time (seconds): 17.46
+	Percent of CPU this job got: 760%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:44.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 379549
+	Voluntary context switches: 1512
+	Involuntary context switches: 1538
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: lwash-79-8_pulic_rnaseq_CTGTAATC_L003_trimmed
+Processing sample: warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,264,581 reads, 13,688,159 reads pseudoaligned
+[quant] estimated average fragment length: 207.867
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,124 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed_2P.fastq"
+	User time (seconds): 644.76
+	System time (seconds): 13.31
+	Percent of CPU this job got: 745%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:28.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 318893
+	Voluntary context switches: 1538
+	Involuntary context switches: 901
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: warn1-14-1_pulic_rnaseq_TCGCCTTG_L004_trimmed
+Processing sample: warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 48,645,178 reads, 18,400,882 reads pseudoaligned
+[quant] estimated average fragment length: 157.74
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,124 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed_2P.fastq"
+	User time (seconds): 1242.13
+	System time (seconds): 16.59
+	Percent of CPU this job got: 766%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:44.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 347552
+	Voluntary context switches: 1484
+	Involuntary context switches: 1510
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: warn1-14-4_pulic_rnaseq_CTAACTCG_L003_trimmed
+Processing sample: warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 24,986,223 reads, 8,936,272 reads pseudoaligned
+[quant] estimated average fragment length: 197.914
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,090 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed_2P.fastq"
+	User time (seconds): 588.72
+	System time (seconds): 13.39
+	Percent of CPU this job got: 741%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 335175
+	Voluntary context switches: 4198
+	Involuntary context switches: 773
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: warn1-91-4_pulic_rnaseq_AGGTTATC_L004_trimmed
+Processing sample: warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 62,047,169 reads, 35,986,540 reads pseudoaligned
+[quant] estimated average fragment length: 174.608
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,182 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed_2P.fastq"
+	User time (seconds): 1497.16
+	System time (seconds): 19.25
+	Percent of CPU this job got: 766%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:17.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 980416
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 414645
+	Voluntary context switches: 1524
+	Involuntary context switches: 1794
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: warn1-91-5_pulic_rnaseq_GCCTAGCC_L003_trimmed
+Processing sample: warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 38,720,448 reads, 6,981,222 reads pseudoaligned
+[quant] estimated average fragment length: 152.685
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,100 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed_2P.fastq"
+	User time (seconds): 996.60
+	System time (seconds): 15.35
+	Percent of CPU this job got: 762%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:12.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979060
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 360903
+	Voluntary context switches: 4274
+	Involuntary context switches: 1290
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: warn1-91-8_pulic_rnaseq_GACCAGGA_L003_trimmed
+Processing sample: warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 28,250
+[index] number of k-mers: 28,189,872
+[index] number of equivalence classes: 78,391
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 30,560,886 reads, 9,866,131 reads pseudoaligned
+[quant] estimated average fragment length: 202.716
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,089 rounds
+
+
+	Command being timed: "kallisto quant -i /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/D.pulicaria_LARRY_HIC_final.codingseq.fasta.idx -o kallisto_out/warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria/warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed_2P.fastq"
+	User time (seconds): 920.03
+	System time (seconds): 15.52
+	Percent of CPU this job got: 763%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:02.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 979216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 360776
+	Voluntary context switches: 1887
+	Involuntary context switches: 1148
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: warn-91-2_pulic_rnaseq2024_CCTTCGCA_L001_trimmed

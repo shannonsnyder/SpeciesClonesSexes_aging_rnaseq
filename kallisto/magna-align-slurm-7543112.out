@@ -1,0 +1,448 @@
+Note that 'racs-eb' is DEPRECATED. You can continue to use it but are
+encouraged to migrate off when you can. There will be no further updates in
+this module tree. 
+Indexing reference transcriptome...
+
+[build] loading fasta file /home/ssnyder3/nereus/aging_rnaseq/genomes/dmagna/D.magna_NIES.masked.codingseq
+[build] k-mer length: 31
+[build] warning: replaced 107 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] counting k-mers ... done.
+[build] building target de Bruijn graph ...  done 
+[build] creating equivalence classes ...  done
+[build] target de Bruijn graph has 187045 contigs and contains 26031990 k-mers 
+
+	Command being timed: "kallisto index -i D.magna_NIES.masked.codingseq.idx /home/ssnyder3/nereus/aging_rnaseq/genomes/dmagna/D.magna_NIES.masked.codingseq"
+	User time (seconds): 55.96
+	System time (seconds): 0.80
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:57.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1233168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36889
+	Voluntary context switches: 175
+	Involuntary context switches: 93
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/ssnyder3/nereus/aging_rnaseq/genomes/dmagna/D.magna_NIES.masked.codingseq.idx
+Processing sample: epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 28,483,955 reads, 7,120,588 reads pseudoaligned
+[quant] estimated average fragment length: 202.263
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 967 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed_2P.fastq"
+	User time (seconds): 734.50
+	System time (seconds): 14.52
+	Percent of CPU this job got: 759%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 945008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 291331
+	Voluntary context switches: 1443
+	Involuntary context switches: 679
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-14-12a_magna_rnaseq2024_AAGTAGAG_L001_trimmed
+Processing sample: epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,666,868 reads, 9,351,525 reads pseudoaligned
+[quant] estimated average fragment length: 205.19
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,105 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed_2P.fastq"
+	User time (seconds): 702.83
+	System time (seconds): 13.85
+	Percent of CPU this job got: 753%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:35.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 944816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 284663
+	Voluntary context switches: 1292
+	Involuntary context switches: 664
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-14-1a_magna_rnaseq2024_CACATCCT_L001_trimmed
+Processing sample: epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 27,704,919 reads, 6,432,284 reads pseudoaligned
+[quant] estimated average fragment length: 201.967
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,042 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed_2P.fastq"
+	User time (seconds): 721.14
+	System time (seconds): 13.83
+	Percent of CPU this job got: 753%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:37.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 945000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 269176
+	Voluntary context switches: 1173
+	Involuntary context switches: 675
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-14-2a_magna_rnaseq2024_TTCGCTGA_L001_trimmed
+Processing sample: epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 30,501,949 reads, 11,751,640 reads pseudoaligned
+[quant] estimated average fragment length: 205.262
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 921 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed_2P.fastq"
+	User time (seconds): 772.59
+	System time (seconds): 13.85
+	Percent of CPU this job got: 761%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:43.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 945036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 285430
+	Voluntary context switches: 1460
+	Involuntary context switches: 669
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-14-4a_magna_rnaseq2024_CATGCTTA_L001_trimmed
+Processing sample: epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 18,505,187 reads, 4,626,986 reads pseudoaligned
+[quant] estimated average fragment length: 201.228
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 890 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed_2P.fastq"
+	User time (seconds): 526.16
+	System time (seconds): 11.96
+	Percent of CPU this job got: 738%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 945220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 237057
+	Voluntary context switches: 2543
+	Involuntary context switches: 554
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-60-4a_magna_rnaseq2024_CATAGCGA_L001_trimmed
+Processing sample: epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 20,734,107 reads, 2,206,793 reads pseudoaligned
+[quant] estimated average fragment length: 206.582
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 953 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed_2P.fastq"
+	User time (seconds): 571.79
+	System time (seconds): 12.83
+	Percent of CPU this job got: 748%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:18.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 946404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 218280
+	Voluntary context switches: 41878
+	Involuntary context switches: 557
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-60-5a_magna_rnaseq2024_AGTTGCTT_L001_trimmed
+Processing sample: epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 25,243,956 reads, 4,997,437 reads pseudoaligned
+[quant] estimated average fragment length: 197.742
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 984 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed_2P.fastq"
+	User time (seconds): 525.22
+	System time (seconds): 12.23
+	Percent of CPU this job got: 737%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 949448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 257015
+	Voluntary context switches: 1288
+	Involuntary context switches: 554
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-60-5-d-magna_rnaseq_GTCATCTA_L004_trimmed
+Processing sample: epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 22,345,409 reads, 2,713,377 reads pseudoaligned
+[quant] estimated average fragment length: 202.553
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 963 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed_2P.fastq"
+	User time (seconds): 614.05
+	System time (seconds): 13.09
+	Percent of CPU this job got: 748%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 944576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 226294
+	Voluntary context switches: 1444
+	Involuntary context switches: 624
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-60-6a_magna_rnaseq2024_GCACATCT_L001_trimmed
+Processing sample: epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,624,318 reads, 7,261,690 reads pseudoaligned
+[quant] estimated average fragment length: 198.148
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,061 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed_2P.fastq"
+	User time (seconds): 562.10
+	System time (seconds): 12.57
+	Percent of CPU this job got: 744%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:17.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 948552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 263116
+	Voluntary context switches: 2073
+	Involuntary context switches: 615
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-60_6_d_magna_rnaseq_GAACCTAG_L004_trimmed
+Processing sample: epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 27,287
+[index] number of k-mers: 26,031,990
+[index] number of equivalence classes: 76,396
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 16,856,971 reads, 3,736,116 reads pseudoaligned
+[quant] estimated average fragment length: 199.976
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,008 rounds
+
+
+	Command being timed: "kallisto quant -i D.magna_NIES.masked.codingseq.idx -o kallisto_out/epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_magna/epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed_2P.fastq"
+	User time (seconds): 473.81
+	System time (seconds): 11.55
+	Percent of CPU this job got: 735%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 944644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 229364
+	Voluntary context switches: 1238
+	Involuntary context switches: 501
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: epa-60-7a_magna_rnaseq2024_CCTACCAT_L001_trimmed

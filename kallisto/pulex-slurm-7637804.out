@@ -1,0 +1,1235 @@
+Note that 'racs-eb' is DEPRECATED. You can continue to use it but are
+encouraged to migrate off when you can. There will be no further updates in
+this module tree. 
+Index file rna.fna.idx already exists. Skipping indexing.
+/home/ssnyder3/nereus/aging_rnaseq/genomes/dpulex/ncbi_dataset/data/GCF_021134715.1/rna.fna.idx
+Processing sample: eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 73,053,503 reads, 60,273,162 reads pseudoaligned
+[quant] estimated average fragment length: 187.829
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,424 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed_2P.fastq"
+	User time (seconds): 1794.57
+	System time (seconds): 26.57
+	Percent of CPU this job got: 742%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:05.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 496126
+	Voluntary context switches: 2411
+	Involuntary context switches: 10047
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: eb-14-1_pulex_rnaseq_CTATGCGT_L003_trimmed
+Processing sample: eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 60,358,141 reads, 48,959,620 reads pseudoaligned
+[quant] estimated average fragment length: 190.375
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,348 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed_2P.fastq"
+	User time (seconds): 1461.18
+	System time (seconds): 23.86
+	Percent of CPU this job got: 741%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:20.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1791452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 539088
+	Voluntary context switches: 2313
+	Involuntary context switches: 7996
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: eb-14-2_pulex_rnaseq_TTAATCAG_L003_trimmed
+Processing sample: eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 52,015,231 reads, 32,496,505 reads pseudoaligned
+[quant] estimated average fragment length: 162.26
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,284 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed_2P.fastq"
+	User time (seconds): 1132.89
+	System time (seconds): 22.12
+	Percent of CPU this job got: 734%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:37.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 478896
+	Voluntary context switches: 9749
+	Involuntary context switches: 6688
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: eb-48-8_pulex_rnaseq_ACTAAGAC_L003_trimmed
+Processing sample: eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 60,155,059 reads, 40,584,098 reads pseudoaligned
+[quant] estimated average fragment length: 187.835
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,325 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed_2P.fastq"
+	User time (seconds): 1358.95
+	System time (seconds): 23.95
+	Percent of CPU this job got: 738%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1791620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 448480
+	Voluntary context switches: 2164
+	Involuntary context switches: 7686
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: eb-54-5_pulex_rnaseq_CGCTATGT_L003_trimmed
+Processing sample: kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 25,853,373 reads, 19,269,867 reads pseudoaligned
+[quant] estimated average fragment length: 199.893
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,178 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed_2P.fastq"
+	User time (seconds): 677.45
+	System time (seconds): 16.47
+	Percent of CPU this job got: 715%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:36.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789392
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 399835
+	Voluntary context switches: 1710
+	Involuntary context switches: 3867
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-1_pulex_rnaseq_CAATAGTC_L004_trimmed
+Processing sample: kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 44,765,201 reads, 33,733,938 reads pseudoaligned
+[quant] estimated average fragment length: 188.081
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,236 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed_2P.fastq"
+	User time (seconds): 1071.50
+	System time (seconds): 20.63
+	Percent of CPU this job got: 735%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:28.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1790056
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 492144
+	Voluntary context switches: 1915
+	Involuntary context switches: 6248
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-3_pulex_rnaseq_TCTGGCGA_L004_trimmed
+Processing sample: kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,411,054 reads, 19,006,066 reads pseudoaligned
+[quant] estimated average fragment length: 199.345
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,239 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed_2P.fastq"
+	User time (seconds): 719.41
+	System time (seconds): 16.21
+	Percent of CPU this job got: 690%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:46.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 446333
+	Voluntary context switches: 2719
+	Involuntary context switches: 4160
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-4_pulex_rnaseq_TAATGAAC_L004_trimmed
+Processing sample: kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 25,435,103 reads, 15,471,038 reads pseudoaligned
+[quant] estimated average fragment length: 201.572
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,240 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed_2P.fastq"
+	User time (seconds): 683.92
+	System time (seconds): 18.47
+	Percent of CPU this job got: 716%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1787876
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 334062
+	Voluntary context switches: 3951
+	Involuntary context switches: 4584
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-f-1_pulex_rnaseq2024_TCGGAATG_L001_trimmed
+Processing sample: kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 21,075,047 reads, 15,623,434 reads pseudoaligned
+[quant] estimated average fragment length: 204.423
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,293 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed_2P.fastq"
+	User time (seconds): 590.12
+	System time (seconds): 17.09
+	Percent of CPU this job got: 706%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1787848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 406038
+	Voluntary context switches: 20711
+	Involuntary context switches: 3616
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-f-2_pulex_rnaseq2024_ATAGCGTC_L001_trimmed
+Processing sample: kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 21,254,211 reads, 15,738,101 reads pseudoaligned
+[quant] estimated average fragment length: 205.552
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,310 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed_2P.fastq"
+	User time (seconds): 602.60
+	System time (seconds): 17.05
+	Percent of CPU this job got: 700%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:28.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 426588
+	Voluntary context switches: 4098
+	Involuntary context switches: 3796
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-f-3_pulex_rnaseq2024_AACTTGAC_L001_trimmed
+Processing sample: kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 27,199,578 reads, 18,995,980 reads pseudoaligned
+[quant] estimated average fragment length: 205.712
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,121 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed_2P.fastq"
+	User time (seconds): 731.18
+	System time (seconds): 18.42
+	Percent of CPU this job got: 716%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:44.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 373726
+	Voluntary context switches: 3839
+	Involuntary context switches: 4738
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-f-4_pulex_rnaseq2024_ATTCTAGG_L001_trimmed
+Processing sample: kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 15,535,287 reads, 8,412,477 reads pseudoaligned
+[quant] estimated average fragment length: 197.463
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,221 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed_2P.fastq"
+	User time (seconds): 480.22
+	System time (seconds): 16.67
+	Percent of CPU this job got: 703%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 385870
+	Voluntary context switches: 4523
+	Involuntary context switches: 3027
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-m-1_pulex_rnaseq2024_TGCTCGAC_L001_trimmed
+Processing sample: kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 19,139,960 reads, 13,378,686 reads pseudoaligned
+[quant] estimated average fragment length: 199.815
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,252 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed_2P.fastq"
+	User time (seconds): 583.14
+	System time (seconds): 16.25
+	Percent of CPU this job got: 711%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:24.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 382031
+	Voluntary context switches: 2457
+	Involuntary context switches: 3513
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-m-2_pulex_rnaseq2024_CCAGTTAG_L001_trimmed
+Processing sample: kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 24,098,275 reads, 16,170,303 reads pseudoaligned
+[quant] estimated average fragment length: 201.525
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,143 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed_2P.fastq"
+	User time (seconds): 683.63
+	System time (seconds): 17.88
+	Percent of CPU this job got: 712%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789444
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 396189
+	Voluntary context switches: 2887
+	Involuntary context switches: 4141
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-m-3_pulex_rnaseq2024_TGTTCCGA_L001_trimmed
+Processing sample: kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 18,335,662 reads, 10,978,056 reads pseudoaligned
+[quant] estimated average fragment length: 198.659
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,338 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed_2P.fastq"
+	User time (seconds): 550.92
+	System time (seconds): 16.05
+	Percent of CPU this job got: 705%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:20.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 388586
+	Voluntary context switches: 3605
+	Involuntary context switches: 3524
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-14-m-4_pulex_rnaseq2024_GGTCCAGA_L001_trimmed
+Processing sample: kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,431,847 reads, 15,923,710 reads pseudoaligned
+[quant] estimated average fragment length: 187.876
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,088 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed_2P.fastq"
+	User time (seconds): 635.60
+	System time (seconds): 16.59
+	Percent of CPU this job got: 711%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:31.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1790692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 362552
+	Voluntary context switches: 2905
+	Involuntary context switches: 4051
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-36-12_pulex_rnaseq_ATTGTCTG_L004_trimmed
+Processing sample: kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,332,787 reads, 17,021,651 reads pseudoaligned
+[quant] estimated average fragment length: 196.698
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,226 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed_2P.fastq"
+	User time (seconds): 667.96
+	System time (seconds): 16.36
+	Percent of CPU this job got: 719%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:35.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 440582
+	Voluntary context switches: 55700
+	Involuntary context switches: 4116
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-36-4_pulex_rnaseq_GAAGAAGT_L004_trimmed
+Processing sample: kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 30,094,836 reads, 21,744,008 reads pseudoaligned
+[quant] estimated average fragment length: 199.278
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,223 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed_2P.fastq"
+	User time (seconds): 759.16
+	System time (seconds): 17.91
+	Percent of CPU this job got: 719%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:48.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1791592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 316594
+	Voluntary context switches: 3606
+	Involuntary context switches: 4440
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-36-9_pulex_rnaseq_ATTATGTT_L004_trimmed
+Processing sample: kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 33,619,888 reads, 24,204,610 reads pseudoaligned
+[quant] estimated average fragment length: 209.219
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,274 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed_2P.fastq"
+	User time (seconds): 917.33
+	System time (seconds): 21.91
+	Percent of CPU this job got: 725%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:09.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 466174
+	Voluntary context switches: 3289
+	Involuntary context switches: 5675
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-36-m-1_pulex_rnaseq2024_TCTGGCGA_L001_trimmed
+Processing sample: kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 36,010,661 reads, 27,652,890 reads pseudoaligned
+[quant] estimated average fragment length: 209.449
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,261 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed_2P.fastq"
+	User time (seconds): 949.43
+	System time (seconds): 22.37
+	Percent of CPU this job got: 721%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:14.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1791224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 402134
+	Voluntary context switches: 2615
+	Involuntary context switches: 5500
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-36-m-4_pulex_rnaseq2024_TTGAATAG_L001_trimmed
+Processing sample: kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,947,303 reads, 17,300,120 reads pseudoaligned
+[quant] estimated average fragment length: 206.624
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,306 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed_2P.fastq"
+	User time (seconds): 713.77
+	System time (seconds): 17.67
+	Percent of CPU this job got: 713%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 460540
+	Voluntary context switches: 3265
+	Involuntary context switches: 3822
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-56-20_pulex_rnaseq_TCCTTGGT_L004_trimmed
+Processing sample: kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,873,318 reads, 14,201,054 reads pseudoaligned
+[quant] estimated average fragment length: 203.554
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,127 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed_2P.fastq"
+	User time (seconds): 655.54
+	System time (seconds): 17.20
+	Percent of CPU this job got: 713%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:34.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1791212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 448538
+	Voluntary context switches: 3389
+	Involuntary context switches: 3696
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-56-4_pulex_rnaseq_GACAGTAA_L004_trimmed
+Processing sample: kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 42,644,784 reads, 30,297,052 reads pseudoaligned
+[quant] estimated average fragment length: 203.399
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,319 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed_2P.fastq"
+	User time (seconds): 1076.88
+	System time (seconds): 21.15
+	Percent of CPU this job got: 730%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:30.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1792796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 397638
+	Voluntary context switches: 2190
+	Involuntary context switches: 6020
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: kap4-56-9_pulex_rnaseq_CATGATCG_L004_trimmed
+Processing sample: stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 29,151,037 reads, 12,941,512 reads pseudoaligned
+[quant] estimated average fragment length: 198.177
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,266 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed_2P.fastq"
+	User time (seconds): 680.85
+	System time (seconds): 17.75
+	Percent of CPU this job got: 716%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:37.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1789612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 327894
+	Voluntary context switches: 4116
+	Involuntary context switches: 4303
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: stm2-50-6_pulex_rnaseq_CAGGAGCC_L004_trimmed
+Processing sample: stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 27,168,937 reads, 5,411,750 reads pseudoaligned
+[quant] estimated average fragment length: 199.972
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,216 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed_2P.fastq"
+	User time (seconds): 726.27
+	System time (seconds): 20.49
+	Percent of CPU this job got: 731%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1787216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 252067
+	Voluntary context switches: 5715
+	Involuntary context switches: 4984
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: stm2-60-3_pulex_rnaseq2024_ATTGTCTG_L001_trimmed
+Processing sample: stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,646,227 reads, 4,630,094 reads pseudoaligned
+[quant] estimated average fragment length: 199.111
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,115 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed_2P.fastq"
+	User time (seconds): 726.47
+	System time (seconds): 19.76
+	Percent of CPU this job got: 733%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:41.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 316262
+	Voluntary context switches: 4266
+	Involuntary context switches: 4788
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: stm2-60-5_pulex_rnaseq2024_GAAGAAGT_L001_trimmed
+Processing sample: tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 28,247,422 reads, 14,378,476 reads pseudoaligned
+[quant] estimated average fragment length: 195.926
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,209 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed_2P.fastq"
+	User time (seconds): 668.92
+	System time (seconds): 18.21
+	Percent of CPU this job got: 718%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:35.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1788396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 418356
+	Voluntary context switches: 2577
+	Involuntary context switches: 3862
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: tex-14-2_pulex_rnaseq_CCAGAGCT_L004_trimmed
+Processing sample: tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 32,350,754 reads, 8,726,963 reads pseudoaligned
+[quant] estimated average fragment length: 206.008
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,244 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed_2P.fastq"
+	User time (seconds): 870.76
+	System time (seconds): 21.65
+	Percent of CPU this job got: 735%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:01.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1787936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 304989
+	Voluntary context switches: 4232
+	Involuntary context switches: 5636
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: tex-57-13_pulex_rnaseq2024_TAATGAAC_L001_trimmed
+Processing sample: tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 29,018,866 reads, 8,241,521 reads pseudoaligned
+[quant] estimated average fragment length: 202.676
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,178 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed_2P.fastq"
+	User time (seconds): 785.87
+	System time (seconds): 20.40
+	Percent of CPU this job got: 731%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:50.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1787324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 322664
+	Voluntary context switches: 3647
+	Involuntary context switches: 5115
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: tex-57-15_pulex_rnaseq2024_ATTATGTT_L001_trimmed
+Processing sample: tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 36,987
+[index] number of k-mers: 38,556,457
+[index] number of equivalence classes: 100,230
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_1P.fastq
+                             /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_2P.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 64,727,936 reads, 51,874,172 reads pseudoaligned
+[quant] estimated average fragment length: 187.11
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,409 rounds
+
+
+	Command being timed: "kallisto quant -i rna.fna.idx -o kallisto_out/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed --threads=8 --bootstrap-samples=100 --plaintext /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_1P.fastq /home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex/tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed_2P.fastq"
+	User time (seconds): 1526.81
+	System time (seconds): 27.58
+	Percent of CPU this job got: 740%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:29.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1790364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 622646
+	Voluntary context switches: 1963
+	Involuntary context switches: 7829
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished processing sample: tex-57-27_pulex_rnaseq_GAAGGAAG_L003_trimmed
