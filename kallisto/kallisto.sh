@@ -1,8 +1,8 @@
 #!/bin/bash 
 #SBATCH -A nereus                ### Account
 #SBATCH --partition=compute_intel         ### Partition
-#SBATCH --job-name=kallisto_pulex         ### Job Name
-#SBATCH --time=24:00:00        ### WallTime
+#SBATCH --job-name=kallisto_pulicaria         ### Job Name
+#SBATCH --time=04:00:00        ### WallTime
 #SBATCH --nodes=1              ### Number of Nodes
 #SBATCH --ntasks=1             ### Number of tasks per array job
 ##SBATCH --array=0-3           ### Array index
@@ -15,7 +15,7 @@
 
 
 ##        DESCRIPTION      ##
-# mapping of reads to transcriptome
+# psudeoalignment of reads to transcriptome
 
 ##     TO USE    ## 
 # add path to raw (or trimmed) fastq files
@@ -27,14 +27,18 @@ module load kallisto/0.43.1-intel-2017b
 
 # Set variables
 #input fastq dir 
-FASTQDIR=/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulex
-OUTDIR=kallisto_out
+FASTQDIR=/home/ssnyder3/nereus/aging_rnaseq/trimmomatic/trimmed_fastqs/trimmed_pulicaria
+OUTDIR=kallisto_aligned
 
 
-genome_dir=/home/ssnyder3/nereus/aging_rnaseq/genomes/dpulex/ncbi_dataset/data/GCF_021134715.1
-fasta_file=rna.fna
-# D pulicaria: D.pulicaria_LARRY_HIC_final.codingseq.fasta
-# D. magna: D.magna_NIES.masked.codingseq   # Path to the reference transcriptome in FASTA format
+genome_dir=/home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/ncbi_dataset/data/GCF_021234035.1
+# D. magna: /home/ssnyder3/nereus/aging_rnaseq/genomes/dmagna/updated_dmagna/ncbi_dataset/data/GCF_020631705.1
+# D.pulicaria /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulicaria/ncbi_dataset/data/GCF_021234035.1
+# D. pulex: /home/ssnyder3/nereus/aging_rnaseq/genomes/dpulex/ncbi_dataset/data/GCF_021134715.1
+fasta_file=pulicaria_rna.fna
+#D.magna: magna_rna.fna
+#D pulex: rna.fna
+# Path to the reference transcriptome in FASTA format
 INDEX=${fasta_file}.idx
 
 
